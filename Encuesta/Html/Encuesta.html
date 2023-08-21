@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="../Css/StyleEn.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Encuesta de programacion</h1>
+    </header>
+    <section>
+      <form id="form" method="GET">
+        <h2>Datos Personales</h2>
+        <div class="per">
+          <div class="dat">
+            <label for="nombre">Nombre</label>
+            <br>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            <hr>
+          </div>
+          <div class="dat">
+            <label for="apellido">Apellido</label>
+            <br>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+            <hr>
+          </div>
+          <div class="dat">
+            <label for="correo">Correo</label>
+            <br>
+            <input type="email" name="correo" id="correo" placeholder="correo" required>
+            <hr>
+          </div>
+        </div>
+        <div class="enc">
+          <h2>Encuesta</h2>
+          <ol>
+            <li id="p1">
+              <b>1.Cuál es tu nivel de experiencia en programación?</b><br><br>
+              <label><input type="radio" name="p1" value="No tengo experiencia previa" required>No tengo experiencia previa</label><br>
+              <label><input type="radio" name="p1" value="Tengo conocimientos básicos en programación"> Tengo conocimientos básicos en programación</label><br>
+              <label><input type="radio" name="p1" value="Tengo experiencia práctica y he trabajado en proyectos"> Tengo experiencia práctica y he trabajado en proyectos</label><br>
+            </li>
+            <li id="p2">
+              <b>2.Qué lenguajes de programación has utilizado?(Opcion Multiple)</b><br><br>
+              <label><input type="checkbox" name="p2" value="Python" required>-Python</label>
+              <label><input type="checkbox" name="p2" value="Java">-Java</label>
+              <label><input type="checkbox" name="p2" value="JavaScript">-JavaScript</label>
+              <label><input type="checkbox" name="p2" value="PHP">-PHP</label>
+              <label><input type="checkbox" name="p2" value="otro">-otro</label>
+            </li>
+            <li id="p3">
+              <b>3.Cuál es tu paradigma de programación favorito?</b><br><br>
+              <label><input type="radio" name="p3" value="Procedural" required> Procedural</label><br>
+              <label><input type="radio" name="p3" value="Orientado a Objetos"> Orientado a Objetos</label><br>
+              <label><input type="radio" name="p3" value="Funcional"> Funcional</label><br>
+              <label><input type="radio" name="p3" value="No estoy seguro"> No estoy seguro</label><br>
+            </li>
+            <li id="p4">
+              <b>4.Qué tipo de proyectos de programación te interesan más?(Opcion Multiple)</b><br><br>
+              <label><input type="checkbox" name="p4" value="Desarrollo web" required> Desarrollo web</label><br>
+              <label><input type="checkbox" name="p4" value="Aplicaciones móvile"> Aplicaciones móviles</label><br>
+              <label><input type="checkbox" name="p4" value="Aplicaciones de escritorio"> Aplicaciones de escritorio</label><br>
+              <label><input type="checkbox" name="p4" value="Ciencia de datos y análisis"> Ciencia de datos y análisis</label><br>
+              <label><input type="checkbox" name="p4" value="Videojuegos"> Videojuegos</label><br>
+              <label><input type="checkbox" name="p4" value="Automatización y scripting"> Automatización y scripting</label><br>
+              <label><input type="checkbox" name="p4" value="otro"> otro</label><br>
+            </li>
+            <li id="p5">
+              <b>5.Cómo abordas la resolución de problemas en programación?(Opcion Multiple)</b><br><br>
+              <label><input type="checkbox" name="p5" value="Desarrollo paso a paso y depuración del código" required> Desarrollo paso a paso y depuración del código</label><br>
+              <label><input type="checkbox" name="p5" value="Uso de algoritmos y estructuras de datos eficientes"> Uso de algoritmos y estructuras de datos eficientes</label><br>
+              <label><input type="checkbox" name="p5" value="Investigación y búsqueda de soluciones en línea"> Investigación y búsqueda de soluciones en línea</label><br>
+              <label><input type="checkbox" name="p5" value="Colaboración con otros programadores"> Colaboración con otros programadores</label><br>
+              <label><input type="checkbox" name="p5" value="otro"> otro</label><br>
+            </li>
+            <li id="p6">
+              <b>6.Has participado en proyectos de código abierto o colaborativo en GitHub u otras plataformas similares?</b><br><br>
+              <label><input type="radio" name="p6" value="Sí, he contribuido a proyectos de código abierto" required> Sí, he contribuido a proyectos de código abierto</label><br>
+              <label><input type="radio" name="p6" value="No, pero me gustaría contribuir en el futuro"> No, pero me gustaría contribuir en el futuro</label><br>
+              <label><input type="radio" name="p6" value="No tengo experiencia en proyectos colaborativos"> No tengo experiencia en proyectos colaborativos</label><br>
+            </li>
+            <li id="p7">
+              <b>7.Has asistido a hackathons o competiciones de programación?</b><br><br>
+              <label><input type="radio" name="p7" value="Sí, he participado en hackathons o competiciones" required> Sí, he participado en hackathons o competiciones</label><br>
+              <label><input type="radio" name="p7" value="No, pero me gustaría participar en el futuro"> No, pero me gustaría participar en el futuro</label><br>
+              <label><input type="radio" name="p7" value="No estoy interesado en este tipo de eventos"> No estoy interesado en este tipo de eventos</label><br>
+            </li>
+            <li id="p8">
+              <b>8.Cómo sueles mantener tu código organizado y versionado?</b><br><br>
+              <label><input type="radio" name="p8" value="Uso sistemas de control de versiones(Como Git) y mantengo repositorios para mis proyectos" required> Uso sistemas de control de versiones(Como Git) y mantengo repositorios para mis proyectos</label><br>
+              <label><input type="radio" name="p8" value="Guardo diferentes versiones en carpetas locales sin usar un sistema de control de versiones."> Guardo diferentes versiones en carpetas locales sin usar un sistema de control de versiones.</label><br>
+              <label><input type="radio" name="p8" value="No tengo experiencia con el control de versiones"> No tengo experiencia con el control de versiones</label><br>
+            </li>
+            <li id="p9">
+              <b>9.Cuál ha sido tu proyecto de programación más desafiante hasta ahora?</b><br><br>
+              <textarea name="p9" cols="40" rows="3" placeholder="Expliquelo brevemente aqui" required></textarea>
+            </li>
+            <li id="p10">
+              <b>10.Qué recursos utilizas para mejorar tus habilidades de programación?(Opcion Multiple)</b><br><br>
+              <label><input type="checkbox" name="p10" value="Tutoriales en línea" required> Tutoriales en línea</label><br>
+              <label><input type="checkbox" name="p10" value="Cursos en plataformas educativas (Coursera,Udemy,etc)"> Cursos en plataformas educativas (Coursera,Udemy,etc)</label><br>
+              <label><input type="checkbox" name="p10" value="Documentación oficial de lenguajes y herramientas"> Documentación oficial de lenguajes y herramientas</label><br>
+              <label><input type="checkbox" name="p10" value="Foros y comunidades de programadores"> Foros y comunidades de programadores</label><br>
+              <label><input type="checkbox" name="p10" value="Libros sobre programación"> Libros sobre programación</label><br>
+              <label><input type="checkbox" name="p10" value="otro"> otro</label><br>
+            </li>
+          </ol>
+        </div >
+        <div class="buttons">
+          <button type="reset">Reset</button>
+          <button id="envio" type="submit">Enviar</button>
+        </div>
+      </form>
+      <script src="../JS/Correo.js"></script>
+    </section>
+  </body>
+</html>
