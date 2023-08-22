@@ -1,0 +1,10 @@
+function countdown(n){
+    if (n <= 0) {
+      return [];
+    } else {
+      const countArray = countdown(n-1);
+      countArray.unshift(n)//push()=up o unshift()=down
+      return countArray;
+    }
+}
+console.log(countdown(10))
