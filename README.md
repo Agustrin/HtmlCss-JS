@@ -6,4 +6,4 @@ Link "Encuesta": https://agustrin.github.io/HtmlCss-JS/Encuesta/Html/Encuesta.ht
 
 Link "Calculadora": https://agustrin.github.io/HtmlCss-JS/TodoList/Html/list.html
 
-Link "JavaScript": https://agustrin.github.io/HtmlCss-JS/JavaScript
+Link "JavaScript": https://agustrin.github.io/HtmlCss-JS/Javacript
